@@ -1,5 +1,4 @@
 c0.jdbstatic.com
-mcs.zijieapi.com
 gov.cn
 115.com
 123pan.com
