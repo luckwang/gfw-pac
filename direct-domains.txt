@@ -68,6 +68,7 @@ douyin.com
 douyinpic.com
 douyinstatic.com
 douyinvod.com
+douyincdn.com
 supercachenode.com
 bytedance.com
 bytedanceapi.com
