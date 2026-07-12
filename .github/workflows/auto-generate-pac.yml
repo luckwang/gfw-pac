@@ -45,11 +45,15 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A
-          git commit -a -m "${commit_message}"
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "${commit_message}"
           git push
 
-      - name: Trigger Auto-Release
-        if: env.file-exists == 'false'
-        uses: benc-uk/workflow-dispatch@v1
-        with:
-          workflow: Auto Generate Release
+      # - name: Trigger Auto-Release
+      #   if: env.file-exists == 'false'
+      #   uses: benc-uk/workflow-dispatch@v1
+      #   with:
+      #     workflow: Auto Generate Release
