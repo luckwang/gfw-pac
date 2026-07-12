@@ -52,8 +52,3 @@ jobs:
           git commit -m "${commit_message}"
           git push
 
-      # - name: Trigger Auto-Release
-      #   if: env.file-exists == 'false'
-      #   uses: benc-uk/workflow-dispatch@v1
-      #   with:
-      #     workflow: Auto Generate Release
