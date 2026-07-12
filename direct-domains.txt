@@ -1,4 +1,5 @@
 c0.jdbstatic.com
+smtcdns.net
 gov.cn
 115.com
 123pan.com
@@ -68,7 +69,6 @@ douyin.com
 douyinpic.com
 douyinstatic.com
 douyinvod.com
-douyincdn.com
 supercachenode.com
 bytedance.com
 bytedanceapi.com
